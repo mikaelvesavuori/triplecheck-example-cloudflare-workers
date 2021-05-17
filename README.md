@@ -1,5 +1,7 @@
 # triplecheck-example-cloudflare-workers
 
+![TripleCheck example implementation](readme/triplecheck-example.png)
+
 ## TripleCheck broker running on Cloudflare Workers and KV
 
 This repo demonstrates a working, basic implementation of a [TripleCheck broker](https://github.com/mikaelvesavuori/triplecheck-broker) running on Cloudflare Workers with the database being Cloudflare KV.
@@ -36,4 +38,4 @@ Run `npm run deploy` or `yarn run deploy`.
 
 ## Teardown (remove stack)
 
-There is currently no way of removing a function from the CLI tool – you will have to do this manually in the web console.
+There is currently no way to remove a function with the CLI tool – you will have to do this manually in the web console.
