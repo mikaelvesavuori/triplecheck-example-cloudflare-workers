@@ -7,7 +7,6 @@ These versions of `triplecheck-example-cloudflare-workers` are currently being s
 | Version | Supported |
 | ------- | --------- |
 | 1.x.x   | :x:       |
-| 0.x.x   | :x:       |
 
 ## Reporting a Vulnerability
 

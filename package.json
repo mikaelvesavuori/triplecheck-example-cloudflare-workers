@@ -1,12 +1,16 @@
 {
   "name": "triplecheck-example-cloudflare-workers",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "TripleCheck broker running on Cloudflare Workers and KV",
   "main": "src/index.ts",
   "author": "Mikael Vesavuori",
   "license": "MIT",
   "keywords": [
     "triplecheck",
+    "triplecheck-example",
+    "cloudflare",
+    "workers",
+    "cloudflare-workers",
     "contract-testing",
     "consumer-driven-contracts",
     "consumer-contracts",
@@ -17,8 +21,8 @@
     "deploy": "wrangler publish"
   },
   "dependencies": {
-    "triplecheck-broker": "^0.0.9",
-    "triplecheck-repository-cloudflarekv": "^0.0.1"
+    "triplecheck-broker": "latest",
+    "triplecheck-repository-cloudflarekv": "latest"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^2.2.2",
@@ -26,6 +30,6 @@
     "ts-loader": "^8",
     "tslib": "^2.2.0",
     "typescript": "^4.2.4",
-    "webpack": "^4.46.0"
+    "webpack": "^4"
   }
 }
