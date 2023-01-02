@@ -30,6 +30,6 @@
     "ts-loader": "^8",
     "tslib": "^2.2.0",
     "typescript": "^4.2.4",
-    "webpack": "^4"
+    "webpack": "^5"
   }
 }
